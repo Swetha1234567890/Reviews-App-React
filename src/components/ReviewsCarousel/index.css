@@ -1,0 +1,90 @@
+/* Write your code here */
+.background {
+  background-image: url(https://assets.ccbp.in/frontend/react-js/reviews-bg.png);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 25px;
+}
+
+.name {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+
+.company {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+
+.description {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+
+.left-arrow {
+  height: 30px;
+  width: 30px;
+}
+
+.right-arrow {
+  height: 30px;
+  width: 30px;
+}
+
+.card-container {
+  display: flex;
+}
+
+.left-arrow {
+  height: 30px;
+  background-color: transparent;
+  border-style: none;
+}
+
+.right-arrow {
+  height: 30px;
+  background-color: transparent;
+  border-style: none;
+}
+
+.review-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.description {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  font-weight: bold;
+}
+
+.company {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.name {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+}
